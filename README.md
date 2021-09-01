@@ -63,8 +63,8 @@ collect_excel_data(input_excel_file: str) -> str
 
 	where:
 	'my_data.xlsx' = the location and name of the
-			excel file with your smiles and
-			names.
+			 excel file with your smiles and
+			 names.
 
 smi_to_sdf(toolkit_to_use: str, input_excel_file: str) -> str
 	Outputs a .sdf for each ligand using openeye or openbabel
@@ -72,8 +72,8 @@ smi_to_sdf(toolkit_to_use: str, input_excel_file: str) -> str
 	where:
 	‘toolkit_name’ = ‘openbabel’ or ‘openeye’
 	'my_data.xlsx' = the location and name of the
-			excel file with your smiles and
-			names.
+			 excel file with your smiles and
+			 names.
 
 
 sdf_to_mol2()
@@ -88,16 +88,16 @@ struc_dir_setup(system_dir, date_dir, pmx_ligands_dir)
 	simulated system. example: tyk2
 
 	where:
-	system_dir = the system you are studying, example tyk2
-	date_dir = date of the project
+	system_dir 	= the system you are studying, example tyk2
+	date_dir 	= date of the project
 	pmx_ligands_dir = the folder that will store ligand folders,
-			 default 02_ligands
+			  default 02_ligands
 
 	For pmxworkflow: 
 	system_dir/date_dir/pmx_ligands_dir = pwf.ligPath
 	
-	struc_dir_setup will also output the path variable you should 
-	set for the pwf variable of pmxworkflow (may be in run.py)
+	struc_dir_setup() will also output the path input you should 
+	set for the pwf variable when running the pmxworkflow.
     
 	
 
