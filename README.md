@@ -14,13 +14,13 @@ Deposit the names of ligands and smiles into an excel spreadsheet. Where smiles 
 	- Your chosen ligand names should be vertical is column A of *.xlsx. 
 	- Smiles should be vertical in column B of *.xlsx.
 
-Example: 
+	Example: 
 
-Column A			Column B
-Ligand1 name		smile code 1 Ligand1 name
-Ligand2 name		smile code 2 Ligand2 name
-…			…
-Ligandn name		smile code n Ligandn name
+	Column A			Column B
+	Ligand1 name		smile code 1 Ligand1 name
+	Ligand2 name		smile code 2 Ligand2 name
+	…			…
+	Ligandn name		smile code n Ligandn name
 
 
 For the current setup, to run the pmxworkflow, you will need to first prepare a few input files. First, the macromolecule of interest. Also, four '*.yml' files:
