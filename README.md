@@ -9,7 +9,8 @@ ligand_builder_v_0_3.py (version 0.3)
 Getting started
 --------------------------------------------------------------------------------
 
-Deposit the names of ligands and smiles into an excel spreadsheet. Where smiles codes are of the form ‘smile code + chosen_ligand_name’. 
+Deposit the names of ligands and smiles into an excel spreadsheet. Where smiles codes are of the form ‘smile code + chosen_ligand_name’.
+
 	- Your chosen ligand names should be vertical is column A of *.xlsx. 
 	- Smiles should be vertical in column B of *.xlsx.
 
