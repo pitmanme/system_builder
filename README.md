@@ -45,7 +45,7 @@ For now, if you are running this code in the folder of your system ‘tyk2’ (s
 	
 date_dir is a directory name of your choosing, but the date is a logical choice for bookkeeping purposes. Example: 2021_01_01
 
-In version 0.3, system_dir and date_dir and input variables for func in ‘ligand_builder_v*.py’ so make note of them. 
+In version 0.3, system_dir and date_dir are input variables for func in ‘ligand_builder_v*.py’ so make note of them. 
 
 --------------------------------------------------------------------------------
 
