@@ -22,7 +22,7 @@ Ligand2 name		smile code 2 Ligand2 name
 Ligandn name		smile code n Ligandn name
 
 
-For the current setup, to run the pmxworkflow, you will need to first prepare a few input files. First, the macromolecule of interest. Also, four *.yml files:
+For the current setup, to run the pmxworkflow, you will need to first prepare a few input files. First, the macromolecule of interest. Also, four '*.yml' files:
 	ligands.yml
 	targets.yml
 	target.yml
@@ -30,14 +30,15 @@ For the current setup, to run the pmxworkflow, you will need to first prepare a 
 
 In development: *.yml generations and deposition to appropriate folders. 
 
-For now, if you are running this code in the folder of your system ‘tyk2’ (system_dir). Then, the *.yml files should be located at:
+For now, if you are running this code in the folder of your system ‘tyk2’ (system_dir). Then, the '*.yml' files should be located at:
 
 	system_dir
-	|   |	targets.yml
+	|   targets.yml
 	\-- date_dir
-	|   |	target.yml
-	|   |	ligands.yml
-	|   |	edges.yml
+	|   \-- 00_data
+	|   |	|   target.yml
+	|   |	|   ligands.yml
+	|   |	|   edges.yml
 	
 	
 date_dir is a directory name of your choosing, but the date is a logical choice for bookkeeping purposes. Example: 2021_01_01
@@ -47,7 +48,7 @@ In version 0.3, system_dir and date_dir and input variables for func in ‘ligan
 --------------------------------------------------------------------------------
 
 
-‘ligand_builder_v_0_3.py’ generates *.sdf and *.mol2 files with partial charges and deposit them into appropriate folders for the pmxworkflow for you. 
+‘ligand_builder_v_0_3.py’ generates '*.sdf' and '*.mol2' files with partial charges and deposit them into appropriate folders for the pmxworkflow for you. 
 
 Import as:
 
