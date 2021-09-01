@@ -23,11 +23,12 @@ Deposit the names of ligands and smiles into an excel spreadsheet. Where smiles 
 	Ligandn name		smile code n Ligandn name
 
 
-For the current setup, to run the pmxworkflow, you will need to first prepare a few input files. First, the macromolecule of interest. Also, four '*.yml' files:
+For the current setup, to run the pmxworkflow, you will need to first prepare a few input files in no particular order. Namely, the macromolecule of interest, the excel file, and four '*.yml' files:
+
 	ligands.yml
 	targets.yml
 	target.yml
-  edges.yml
+  	edges.yml
 
 In development: *.yml generations and deposition to appropriate folders. 
 
