@@ -1,8 +1,8 @@
-# ligand_builder
+# system_builder
 automation of setting up systems for the pmxworkflow
 
 Documentation on how to build ligand systems for pmxworkflow using
-ligand_builder_v_0_3.py (version 0.3)
+ligand_builder_v_0_3.py (version 0.3). Requires github update but many of these docs still apply.
 08_31_2021
 
 --------------------------------------------------------------------------------
