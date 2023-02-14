@@ -1,0 +1,14 @@
+(1) ligand reshaping could be altered to allow difference methods such as 
+	fexible: ligpose
+	rigid: in ligand_reshaping
+	
+
+(2) make system_buider read an input file or flagged input arguments 
+
+(3) it is possible the mtz_path in ligpose.py should be fed in as an optional argument. There might be cases where the structure referenced is too different from that on the PDB. 
+
+(4) change it so you don't input openeye as an added argument. Too complicated and mostly runs with openeye currently anyways.
+
+(5) automate the date_dir and pmx_ligands_dir so they aren't manually set. 
+
+(6) with the current setup the different DUs in ligpose.py will be regenerated for each molecule looped through. Should probably rework this.. 
